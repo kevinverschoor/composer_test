@@ -1,18 +1,23 @@
 {
   "name": "kevinverschoor/composer_test",
-  "description": "My first Composer project",
-  "authors": [
-      {
-          "name": "Your Name",
-          "email": "your@name.com"
-      }
-  ],
+  "description": "Testing composer",
+  "type": "magento2-module",
+  "version": "0.8",
   "require": {
-      "php": ">=5.3.0"
+    "magento/module-sales": "100 - 103",
+    "magento/module-payment": "100 - 103",
+    "magento/module-quote": "100 - 103"
   },
+  "authors": [
+    {
+      "name": "Kevin Verschoor",
+      "email": "kevin@test.nl"
+    }
+  ],
   "autoload": {
-      "psr-0": {
-          "HelloWorld": "src/"
-      }
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Kevinverschoor\\Test\\": ""
+    }
   }
 }
