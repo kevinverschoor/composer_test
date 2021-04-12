@@ -19,5 +19,17 @@
     "psr-4": {
       "Kevinverschoor\\Test\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+        "type": "composer",
+        "url": "https://repo.magento.com/",
+        "canonical": false
+    },
+      {
+        "type": "composer",
+        "url": "https://repo.packagist.org",
+        "canonical": false
+    }
+  ]
 }
