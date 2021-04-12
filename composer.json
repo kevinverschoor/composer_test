@@ -1,0 +1,12 @@
+{
+  "name": "kevinverschoor/composer_test",
+  "description": "Testing",
+  "type": "library",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Kevin Verschoor",
+      "email": "kevin@gmail.com"
+    }
+  ]
+}
