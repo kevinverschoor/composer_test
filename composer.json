@@ -1,6 +1,6 @@
 {
   "name": "kevinverschoor/composer_test",
-  "description": "Testing composer",
+  "description": "Testing composer with a new description :)",
   "type": "magento2-module",
   "version": "1.1",
   "require": {
